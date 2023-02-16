@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden auto;
+}
+
+.mg_menu_movil, .mg_menu_principal {
+  display: none;
+}
+
+h1, .h1 {
+	font-size: calc(1.725rem + 5.7vw);
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 700;
+	line-height: 1.2;
+	color: #343a40;
+  }
+  
+  .subheading {
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.5rem;
+  }
+
+.menumovil {
+  height: 50px;
+  width: 100%;
+  background: #007bff;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+/* INICIO CSS ICONOS REDES */
+.social-icons .social-icon-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.social-icons .social-icon-github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.social-icons .social-icon-twitter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.social-icons .social-icon-facebook {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.social-icons .social-icon-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon-linkedin:hover {
+  background-color: #0e76a8;
+}
+.social-icons .social-icon-github:hover {
+  background-color: #000000;
+}
+.social-icons .social-icon-twitter:hover {
+  background-color: #1da1f2;
+}
+.social-icons .social-icon-facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons .social-icon-instagram:hover {
+  background-color: #fcaf45;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+/* INICIO CSS ICONOS LENGUAJES Y HERRAMIENTAS */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.social-icon-html {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+/* FIN CSS ICONOS LENGUAJES Y HERRAMIENTAS */
+
+#sideNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+@media screen and (max-width: 990px) {
+  #mg_pre-carga {
+    overflow: hidden scroll;
+  }
+  body {
+    font-size: 15px;
+  }
+  .mg_menu_movil {
+    position: fixed;
+    height: 50px;
+    background: #007bff;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1999;
+    border-top: 1px solid #f3f3f3;
+    box-shadow: 0px -2px 10px #0000004f;
+  }
+  .mg_menu_movil a img {
+    height: 24px;
+  }
+  #mg_page {
+    margin: 0 15px 50px;
+  }
+  .mg_menu_principal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #007bff;
+    z-index: 109;
+    text-align: center;
+    left: -100%;
+    top: 0;
+    padding: 0 15px 50px;
+    overflow: hidden auto;
+    transition: 1s;
+  }
+}
